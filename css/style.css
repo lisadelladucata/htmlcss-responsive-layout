@@ -178,7 +178,34 @@ main {
 /*----------------
     FOOTER
 ------------------*/
+footer{
+    background-color: #7c69a4;
+    color: #fff;
+    font-size: 13px;
+}
 
+.copyright{
+    text-align: center;
+    padding: 20px;
+}
+
+.link{
+    width: 70%;
+    margin: auto;
+}
+
+.link ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.link a{
+    color: inherit;
+
+}
 /*----------------
     RESPONSIVE
 ------------------*/
@@ -211,6 +238,10 @@ main {
         padding: 0px 20px 0px 0px;
     }
 
+    .link{
+        width: 100%;
+    }
+
 }
 
 /* Desktop da 992px a infinito */
@@ -234,6 +265,20 @@ main {
 
     .presentation img{
         padding: 0px 20px 0px 0px;
+    }
+
+    footer{
+        display: flex;
+    }
+
+    .copyright{
+        text-align: left;
+        padding: 20px;
+        width: 70%;
+    }
+
+    .link ul{
+        justify-content: flex-end;
     }
     
 }
