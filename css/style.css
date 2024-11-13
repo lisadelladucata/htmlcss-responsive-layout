@@ -71,7 +71,7 @@ h1 {
     text-shadow: 1px 1px 2px #333;
 }
 
-h2 {
+.recipe-intro h2 {
     color: #4e3969;
     font-size: 28px;
 }
@@ -166,6 +166,15 @@ main {
     max-width: 100%;
 }
 
+.presentation h2{
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+
+.presentation img{
+    padding: 0px 0px 20px 0px;
+}
+
 /*----------------
     FOOTER
 ------------------*/
@@ -198,6 +207,9 @@ main {
         float: left
     }
 
+    .presentation img{
+        padding: 0px 20px 0px 0px;
+    }
 
 }
 
@@ -218,6 +230,10 @@ main {
         display: inline;
         max-width: 100%;
         padding: 10px 0px;
+    }
+
+    .presentation img{
+        padding: 0px 20px 0px 0px;
     }
     
 }
